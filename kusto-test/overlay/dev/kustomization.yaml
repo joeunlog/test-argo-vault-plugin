@@ -4,4 +4,4 @@ namespace: default
 resources:
 - ../../base
 patches:
-- patch: secret-patch.yml
+- patch: secret-patch.yaml
