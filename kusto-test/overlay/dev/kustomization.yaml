@@ -3,5 +3,5 @@ kind: Kustomization
 namespace: default
 resources:
 - ../../base
-patches:
-- patch: secret-patch.yaml
+patchesStrategicMerge:
+- secret-patch.yaml
